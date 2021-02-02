@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: rubik;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary display-4">Python - Atividade</h1>
+
+        <div class="container my-2">
+            <h2 class="text-dark text-center display-5">Calculadora</h2>
+
+            <form class="form row" action="" method="POST">
+
+                <div class="container col-sm-6 card bg-white my-4 py-5 ">
+
+                    <div class="card-body">
+
+                        <input class=" my-3 form-control " type="number" name="num1" placeholder="Digite primeiro numero:" />
+                        <input class="form-control " type="number" name="num2" placeholder="Digite segundo numero:" /> <br />
+
+                        <span class="my-2">Selecione sua operação: </span> <br />
+
+                        <input type="radio" name="opc" id="soma" value="soma" checked>
+                        <label for="soma">Soma</label>
+
+                        <input type="radio" name="opc" id="subtracao" value="subtracao">
+                        <label for="subtracao">Subtração</label>
+
+                        <input type="radio" name="opc" id="multiplicacao" value="multiplicacao">
+                        <label for="multiplicacao">Multiplicação</label>
+
+                        <input type="radio" name="opc" id="divisao" value="divisao">
+                        <label for="divisao">Divisão</label>
+
+                        <br />
+
+                        <div class="mt-3">
+                            <button class="btn btn-primary">Calcular</button>
+                            <button type="reset" class="btn btn-danger">Apagar</button>
+                        </div>
+                        <hr />
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    
+</html>
